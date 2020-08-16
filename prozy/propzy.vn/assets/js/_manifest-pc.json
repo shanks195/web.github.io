@@ -1,0 +1,24 @@
+{
+    "version": "1.0",
+    "comment": "---Above version must be the same as data-pwa-version",
+    "comment": "---data-pwa-version can be found in index.html in the manifest tag",
+    "comment": "---if versions are not the same it will cause an update loop",
+    "lang": "en",
+    "name": "Propzy",
+    "scope": "/",
+    "display": "fullscreen",
+    "start_url": "https://propzy.vn",
+    "short_name": "Propzy",
+    "description": "",
+    "orientation": "portrait",
+    "background_color": "#000000",
+    "theme_color": "#000000",
+    "generated": "true",
+    "icons": [
+        {
+            "src": "https://propzy.vn/assets/images/icons/favicon.ico",
+            "sizes": "36x36",
+            "type": "image/png"
+        }
+    ]
+}
