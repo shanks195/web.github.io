@@ -1,8 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-propzy.vn	TRUE	/	FALSE	1999999999	PHPSESSID	t433fo0ll2jf6nejukptlif914
-.onesignal.com	TRUE	/	FALSE	1999999999	__cfduid	d232bcc996d7baaf78822b0bbac25c7e61597587570
-cdn.onesignal.com	TRUE	/	FALSE	1999999999	SameSite	Lax
-.google.com	TRUE	/	FALSE	1999999999	NID	204=LpldOa8xNgqL0nMXMl7LngdjPJ_6K-l17a9IoYs-dImzzU-mGK0RfSDM9hWZIupSznj2Ix-AJjVkMvZJW9Bgu6NzsmSZnNCyO2SVd2sqtuuIt1euuCYG1KiQwAvdDx36B6Csz3rkmnVLBU6sV6p_EPyUSpv71xNsG7wTBVMfndk
-propzy.vn	TRUE	/	FALSE	1999999999	options	%7B%22listingTypeList%22%3A2%2C%22propertyList%22%3A%222%22%2C%22directionList%22%3A%221%2C2%2C3%2C4%2C5%2C6%2C7%2C8%22%2C%22minSize%22%3A0%2C%22maxSize%22%3A999999%2C%22minBedroom%22%3A0%2C%22maxBedroom%22%3A%2299%22%2C%22minBathroom%22%3A0%2C%22maxBathroom%22%3A%2299%22%2C%22minNumberFloor%22%3Anull%2C%22maxNumberFloor%22%3Anull%2C%22minPrice%22%3A0%2C%22maxPrice%22%3A%221000000000000000%22%2C%22position%22%3Anull%2C%22currencyCode%22%3A%22VND%22%2C%22minAlley%22%3Anull%2C%22maxAlley%22%3Anull%2C%22minYearBuilt%22%3A0%2C%22maxYearBuilt%22%3A9999%2C%22statusListing%22%3Anull%2C%22cityIds%22%3A1%2C%22wardIds%22%3Anull%2C%22districtIds%22%3A%2211%22%2C%22forMap%22%3Afalse%2C%22guaranteed%22%3A0%2C%22locations%22%3Anull%2C%22keyword%22%3Anull%2C%22streetIds%22%3Anull%2C%22typePrice%22%3A%221%22%7D
-
