@@ -1,268 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
-    <title>Home | Open4um</title>
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="https://unpkg.com/vue/dist/vue.js"></script>
     <link rel="stylesheet" href="css/style.css">
+    <!-- css bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
-
 <body>
-    <div class="container">
-        <div id="application">
-            <tabs>
-                <tab name="Home" :selected="true">
-                    <div class="col-4 text-home">
-                        <div class="ofact">
-                            <h6>#Open4umFact</h6>
-                            <span><a href="">
-                                see more</a></span>
-                            <div class="content-fact">
-                                <div class="fact">
-                                    <a href="">
-                                        <span class="user-fact"><i class="fas fa-user"></i></span>
-                                        <span class="circle-plus"><i class="fas fa-plus"></i></span>
-                                        <span class="creat_fact">Creat New Fact</span>
-                                    </a>
-                                </div>
-                                <div class="fact">
-                                    <a href="">
-                                        <img src="imgs/5197841_image.jpg" alt="">
-                                        <div class="user-f"><img src="imgs/118072668_1713767078779693_8732886600706605800_o.jpg" alt=""></div>
-                                        <p>thetoan1995</p>
-                                    </a>
-                                </div>
-                                <div class="fact">
-                                    <a href="">
-                                        <img src="imgs/tin-dang.jpg" alt="">
-                                        <div class="user-f"><img src="imgs/118072668_1713767078779693_8732886600706605800_o.jpg" alt=""></div>
-                                        <p>thetoan1995</p>
-                                    </a>
-                                </div>
-                                <div class="fact">
-                                    <a href="">
-                                        <img src="imgs/5197841_image.jpg" alt="">
-                                        <div class="user-f"><img src="imgs/118072668_1713767078779693_8732886600706605800_o.jpg" alt=""></div>
-                                        <p>thetoan1995</p>
-                                    </a>
-                                </div>
-                                <div class="fact">
-                                    <a href="">
-                                        <img src="imgs/5197826_image.jpg" alt="">
-                                        <div class="user-f"><img src="imgs/118072668_1713767078779693_8732886600706605800_o.jpg" alt=""></div>
-                                        <p>thetoan1995</p>
-                                    </a>
-                                </div>
-                                <div class="fact">
-                                    <a href="">
-                                        <img src="imgs/5197834_mockhoa.jpg" alt="">
-                                        <div class="user-f"><img src="imgs/118072668_1713767078779693_8732886600706605800_o.jpg" alt=""></div>
-                                        <p>thetoan1995</p>
-                                    </a>
-                                </div>
-                                <div class="fact">
-                                    <a href="">
-                                        <img src="imgs/tin-dang.jpg" alt="">
-                                        <div class="user-f"><img src="imgs/118072668_1713767078779693_8732886600706605800_o.jpg" alt=""></div>
-                                        <p>thetoan1995</p>
-                                    </a>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="upload-source">
-                            <div class="upload"> <span>Upload Source</span> </div>
-                            <div class="catalog_source">
-                                <h1>Cataglog</h1>
-                                <div class="icon-align-justify">
-                                    <i class="fas fa-align-justify"></i>
-                                </div>
-
-
-                            </div>
-                            <div id="nav">
-                                <ul class="parent-menu">
-                                    <li>
-                                        <a href=""><i class="fab fa-windows"></i> code classification</a>
-                                        <ul class="sub-menu">
-                                            <li>
-                                                <div class="li">
-                                                    <h1>Code Category</h1>
-                                                    <p><a href="">website</a></p>
-                                                    <p><a href=""> application software</a></p>
-                                                    <p><a href="">Game</a></p>
-                                                </div>
-                                                <div class="li">
-                                                    <h1>Source Code</h1>
-                                                    <p><a href="">code quality</a></p>
-                                                    <p><a href=""> reference code</a></p>
-                                                    <p><a href="">Code Free</a></p>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="">Top Code</a>
-                                    </li>
-                                    <li>
-                                        <a href=""><i class="fas fa-angle-left"></i><i class="fas fa-angle-right"></i>Android</a>
-                                    </li>
-                                    <li>
-                                        <a href=""><i class="fas fa-angle-left"></i><i class="fas fa-angle-right"></i>IOS</a>
-                                    </li>
-                                    <li>
-                                        <a href=""><i class="fas fa-angle-left"></i><i class="fas fa-angle-right"></i>WINDOWS PHONE</a>
-                                    </li>
-                                    <li>
-                                        <a href=""><i class="fas fa-angle-left"></i><i class="fas fa-angle-right"></i>php & my sql</a>
-                                    </li>
-                                    <li>
-                                        <a href=""><i class="fas fa-angle-left"></i><i class="fas fa-angle-right"></i>WORDPRESS</a>
-                                    </li>
-                                    <li>
-                                        <a href=""><i class="fas fa-angle-left"></i><i class="fas fa-angle-right"></i>JOOMLA</a>
-                                    </li>
-                                    <li>
-                                        <a href=""><i class="fas fa-angle-left"></i><i class="fas fa-angle-right"></i>VISUAL C#</a>
-                                    </li>
-                                    <li>
-                                        <a href=""><i class="fas fa-angle-left"></i><i class="fas fa-angle-right"></i>Android</a>
-                                    </li>
-                                    <li>
-                                        <a href=""><i class="fas fa-angle-left"></i><i class="fas fa-angle-right"></i>Asp/Asp.net</a>
-                                    </li>
-                                    <li>
-                                        <a href=""><i class="fas fa-angle-left"></i><i class="fas fa-angle-right"></i>JAVA/JSP</a>
-                                    </li>
-                                    <li>
-                                        <a href=""><i class="fas fa-angle-left"></i><i class="fas fa-angle-right"></i>Visual Basic</a>
-                                    </li>
-
-                                </ul>
-                            </div>
-                        </div>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Something else here</a>
                     </div>
-                    <div class="col-3">
-                        <div class="data-creen">
-                            <div class="friend il1">
-                                <a href="friend/index.html">
-                                    <img src="imgs/user.png" alt="">
-                                    <p>Friend</p>
-                                </a>
+                  </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+                <li class="nav-item search">
+                    <form id="demo-2">
+                        <input type="search" placeholder="Search">
+                    </form>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     Sign In
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     Sign Up
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </li>
+              </ul>
+              
+            </div>
+          </nav>
+    </header>
+    <nav>
+       <div class="row">
+           <div class="col-2">
+               <div class="home">
+                <h4>Browse</h4>
+               </div>
+               <div class="playlist">
+                   <a>PLAYLISTS</a>
+               </div>
+               <div class="create-song">
+                   <a ><i class="fas fa-plus"></i> <span>Create song</span></a>
+               </div>
+               
+           </div>
+           <div class="col-10">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">GENRES & MOODS
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">NEW RELEASES</a>
+                    </li>
+                    
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <div class="top-song">
+                            <div class="title-top-song">
+                                <span>#zingchart</span><i class="fas fa-play-circle"></i>
                             </div>
-                            <div class="coin il1">
-                                <span class="title-account">Acccount:</span> <span>0</span> <span class="coin">o</span>
-                                <div class="buy-coin">
-                                    <a href="">Buy Ocoin</a>
+                            <div class="information">
+                                <div class="hang-hang">
+                                    
+                                    <div class="hang">
+                                        <div class="so-hang">
+                                            <h1>1</h1>
+                                        </div>
+                                        <div class="anh-music">
+                                            <img src="https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/avatars/f/f/ffaa21f0110ad661fe0741b5acb2bf10_1461555519.jpg" alt="">
+                                        </div>
+                                        <div class="title-music">
+                                            <div class="ten-bai-hat">Bai 1</div>
+                                            <div class="ten-author">thetoan1995</div>
+                                        </div>
+                                        <div class="tong-diem">
+                                            <p>300000đ</p>
+                                        </div>
+                                    </div>
+                                    <div class="hang">
+                                        <div class="so-hang">
+                                            <h1>2</h1>
+                                        </div>
+                                        <div class="anh-music">
+                                            <img src="https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/avatars/f/f/ffaa21f0110ad661fe0741b5acb2bf10_1461555519.jpg" alt="">
+                                        </div>
+                                        <div class="title-music">
+                                            <div class="ten-bai-hat">Bai 1</div>
+                                            <div class="ten-author">thetoan1995</div>
+                                        </div>
+                                        <div class="tong-diem">
+                                            <p>300000đ</p>
+                                        </div>
+                                           
+                                    </div>
+                                    <div class="hang">
+                                        <div class="so-hang">
+                                            <h1>3</h1>
+                                        </div>
+                                        <div class="anh-music">
+                                            <img src="https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/avatars/f/f/ffaa21f0110ad661fe0741b5acb2bf10_1461555519.jpg" alt="">
+                                        </div>
+                                        <div class="title-music">
+                                            <div class="ten-bai-hat">Bai 1</div>
+                                            <div class="ten-author">thetoan1995</div>
+                                        </div>
+                                        <div class="tong-diem">
+                                            <p>300000đ</p>
+                                        </div>
+                                    </div>
+                                    <div class="xemthem">
+                                        <span>SEE TOP</span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="account-user il1">
-                                <span class="title-contact">Contact</span>
-                                <span class="search-contact">
-                                    <i class="fas fa-search"></i>
-                                </span>
-                                <span class="tools">
-                                    <i class="fas fa-ellipsis-h"></i>
-                                </span>
-                                <div class="user-account user-1">
-                                    <a href=""><img src="imgs/118168160_177697283730290_2766504966805287219_o.jpg" alt=""><span>Name user 1</span></a>
-                                </div>
-                                <div class="user-account user-2">
-                                    <a href=""><img src="imgs/118072668_1713767078779693_8732886600706605800_o.jpg" alt=""><span>Name user 2</span></a>
-                                </div>
-                                <div class="user-account user-3">
-                                    <a href=""><img src="imgs/118168160_177697283730290_2766504966805287219_o.jpg" alt=""><span>Name user 1</span></a>
-                                </div>
-                                <div class="user-account user-4">
-                                    <a href=""><img src="imgs/118072668_1713767078779693_8732886600706605800_o.jpg" alt=""><span>Name user 2</span></a>
+                                <div class="image">
+                                    <img src="https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/avatars/f/f/ffaa21f0110ad661fe0741b5acb2bf10_1461555519.jpg" alt="">
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </tab>
-                <tab name="Forum">
-                    <h1>Heading for tab 2</h1>
-                    <p>Molestiae asperiores odio architecto consequuntur veritatis! Quibusdam, exercitationem recusandae odit sequi vel ratione sed, quidem dolor esse aliquam ullam ipsam omnis sit vero! Accusamus in molestiae pariatur, ad nemo adipisci.</p>
-                </tab>
-                <tab name="Stock">
-                    <h1>Heading for tab 3</h1>
-                    <p>Perferendis iste alias quaerat quia sint incidunt, magnam quis impedit temporibus quod vitae nulla minima eum tempore! Aliquid suscipit, accusantium omnis, ad molestias est impedit deleniti corrupti animi, praesentium repellendus?</p>
-                </tab>
-                <tab name="Market">
-                    <h1>Heading for tab 4</h1>
-                    <p>Harum nostrum, esse libero facilis non enim earum cupiditate dolore exercitationem minus fugit rem aspernatur, ab recusandae corporis consequatur cum illum illo est similique quos? Vitae quibusdam adipisci minima odit?</p>
-                </tab>
-            </tabs>
-        </div>
-    </div>
 
-
-    <script type="x-template" id="template-tabs">
-        <div>
-
-            <header>
-                <div class="col-1">
-                    <div class="logo-web">
-                        <img src="imgs/logo_web.png" alt="">
                     </div>
-                    <div class="search-web">
-                        <i class="fas fa-search" style="color:#d8dadf"></i>
-                        <input type="text" name="" id="" style="border:none;background-color:#f0f2f5;margin-left: 2%;" placeholder="Tìm kiếm trên open4um">
-                    </div>
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+                        
                 </div>
-                <div class="col-2">
-                    <ul>
-                        <li v-for="menuItem in navItemsArray" :class="{ selectedMenuItem: menuItem.isActive }"><a @click="selectMenuItem(menuItem)">{{ menuItem.name }}</a></li>
-                    </ul>
-
-                </div>
-                <div class="col-1">
-                    <div class="user--information">
-                        <div class="user--avatar">
-                            <img src="imgs/avatar.jpg" style="width:100%;height: 100%;border-radius: 50%;margin-top:9%" alt="">
-                        </div>
-                        <p>Tô Toàn</p>
+           </div>
+       </div>
+    </nav>
+    <footer>
+        <div class="music-play">
+            <div class="circle-music row">
+                <div class="col-3">
+                    <div class="circle-mussic">
+                        <img src="https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/4/2/8/0/4280bab57c22decefb0377855c5a6605.jpg" alt="">
                     </div>
-                    <div>
-                        <div class="create il">
-                            <i class="fas fa-plus"></i>
-                        </div>
-                        <div class="message il">
-                            <svg viewBox="0 0 28 28" alt="" class="a8c37x1j ms05siws hwsy1cff b7h9ocf4 fzdkajry" height="20" width="20">
-                                <path
-                                    d="M14 2.042c6.76 0 12 4.952 12 11.64S20.76 25.322 14 25.322a13.091 13.091 0 0 1-3.474-.461.956 .956 0 0 0-.641.047L7.5 25.959a.961.961 0 0 1-1.348-.849l-.065-2.134a.957.957 0 0 0-.322-.684A11.389 11.389 0 0 1 2 13.682C2 6.994 7.24 2.042 14 2.042ZM6.794 17.086a.57.57 0 0 0 .827.758l3.786-2.874a.722.722 0 0 1 .868 0l2.8 2.1a1.8 1.8 0 0 0 2.6-.481l3.525-5.592a.57.57 0 0 0-.827-.758l-3.786 2.874a.722.722 0 0 1-.868 0l-2.8-2.1a1.8 1.8 0 0 0-2.6.481Z">
-                                </path>
-                            </svg>
-
-                        </div>
-                        <div class="notification il">
-                            <i class="fas fa-bell"></i>
-
-                        </div>
-                        <div class="account il">
-                            <i class="fas fa-caret-down"></i>
+                    <div class="information-music">
+                        <h3>Tên bài hát 1</h3>
+                        <p>Tên tác giả 1</p>
+                    </div>
+                    <div class="icon-ee">
+                        <div class="icon icon-ba-cham">
+                            <span class="icon-b-c">...</span>
                         </div>
                     </div>
+                    
                 </div>
-            </header>
-            <div>
-                <slot></slot>
+                <div class="col-6">
+                    <div class="icon-play">
+                        <div class="icon-revert">
+                            <i class="fas fa-retweet"></i>
+                        </div>
+                        <div class="icon-back">
+                            <i class="fas fa-step-backward"></i>
+                        </div>
+                        <div class="icon-pause">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <div class="icon-back-right">
+                            <i class="fas fa-step-backward"></i>                        </div>
+                    </div>
+                    <div class="thanh-phat-nhac">
+                        <span>01:30</span>
+                        <span class="thanh-chay-nhac"></span>
+                        <span>4:30</span>
+                    </div>
+
+                </div>
+                <div class="col-3">
+                    <div class="iconblabla">
+                        <div class="icon-binh-chon">
+                            <div class="icon-view">
+                                <i class="far fa-eye"></i>
+                            </div>
+                            <div class="icon-like">
+                                <i class="far fa-heart"></i>
+                            </div>
+                            <div class="icon-dislike">
+                                <i class="fas fa-heart-broken"></i>
+                            </div>
+    
+                        </div>
+                        <div class="volume">
+                            <i class="fas fa-volume-up"></i>
+                            <div class="dungluongnhac"></div>
+                        </div>
+                    </div>
+                   <div class="icon-playlist">
+                    <i class="fab fa-playstation"></i>
+                   </div>
+                </div>
             </div>
         </div>
-    </script>
-    <script type="x-template" id="template-tab">
-        <div v-show="isActive">
-            <slot></slot>
-        </div>
-
-    </script>
-    <script src="js/header.js"></script>
+    </footer>
+    <!-- script bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
-
 </html>
